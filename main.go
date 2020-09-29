@@ -1,4 +1,3 @@
-```go
 package main
 
 import (
@@ -226,4 +225,3 @@ func main() {
 	_, _ = header.Write(footerByte)
 	_ = os.Rename(headerFile, "README.md")
 }
-```
