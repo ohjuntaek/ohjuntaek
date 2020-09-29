@@ -1,4 +1,4 @@
-```go
+
 name: Go
 
 on:
@@ -42,4 +42,3 @@ jobs:
         git add README.md
         git commit -m "Update README" || exit 0
         git push
-```
